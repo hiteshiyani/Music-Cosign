@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Music Cosign</title>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!--boostrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--variable-->
+    <link rel="stylesheet" href="./css/variable.css" />
+    <!--responsive-->
+    <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body class="body">
+    <!--menu bar-->
+    <header class="top_bar pt-3 bg_black">
+        <nav class="navbar navbar-expand-lg navbar-dark py-0">
+            <div class="container justify-content-center">
+                <div class="row w-100 d-flex justify-content-between align-items-center">
+                    <div class="col-lg-3 px-0 d-flex justify-content-between align-items-center">
+                        <a class="navbar-brand py-0 d-flex justify-content-between align-items-center" href="#">
+                            <img src="./images/./Music-logo.png" />
+                            <span class="font_size-14 font-700 text-white ps-2 mb-0">Music Cosign</span>
+                        </a>
+                        <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="col-lg-5 col-12 px-0 d-none d-lg-block">
+                        <form class="d-flex justify-content-end align-items-center">
+                            <a href="#search" class="position-absolute pe-3">
+                                <img src="./images/search.png" />
+                            </a>
+                            <input class="form-control position-relative text-white py-2 ps-3 mb-0 search_box"
+                                id="search" type="search" placeholder="Search for songs, artists, genres"
+                                aria-label="Search" />
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-12 px-0">
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center pb-4 pb-lg-0">
+                                <li class="nav-item dropdown text-center">
+                                    <a class="nav-link dropdown-toggle font_size-14 font-700 text-white pt-3 pt-lg-2"
+                                        href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        En
+                                    </a>
+                                    <ul class="dropdown-menu bg_drop" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item text-white" href="#">Action</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider" />
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-white" href="#">Another action</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-0 px-lg-4">
+                                    <a class="nav-link active font_size-14 font-700 text-white pb-3 pb-lg-2"
+                                        aria-current="page" href="#">Sign in</a>
+                                </li>
+                                <li class="nav-item create_account">
+                                    <a class="nav-link font_size-14 font-700 text-white border border-white rounded-pill px-4 py-2"
+                                        href="#">Create Account</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="passion_bg">
+            <div class="container pt-0 pt-lg-5">
+                <div class="row position-relative align-items-center pt-0 pt-lg-5">
+                    <div class="col-lg-8">
+                        <h1 class="font-700 text-white mt-3 mt-lg-0 you_bring_txt">
+                            You bring the passion. We bring the music.
+                        </h1>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="font-500 text-white max_width-1 mb-0 pb-4">
+                            An exclusive music platform for new talent to win the attention
+                            of well-known artists.
+                        </p>
+                        <button class="btn bg_red rounded-pill px-4" type="button ">
+                            <p class="text-white mb-0">Start Premium Trial</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--music worldwide-->
+
+    <section class="music_worldwide">
+        <div class="container p-lg-5 py-5 py-lg-5">
+            <div class="p-lg-5 p-sm-0">
+                <div class="d-flex justify-content-center align-items-center">
+                    <h2 class="font-700 text-center music_txt_max_width mb-0">
+                        Enhancing the experience of music worldwide.
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 px-0 pt-5">
+                        <div class="text-center px-3">
+                            <img src="./images/briefcase-1.png" class="pb-0 pb-lg-4" />
+                            <p class="font-800 mb-0 py-2">For partners</p>
+                            <p class="font-500 mb-0">
+                                All you need to take your service to the next level.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 pt-5">
+                        <div class="text-center px-3">
+                            <img src="./images/mic-1.png" class="pb-0 pb-lg-4" />
+                            <p class="font-800 mb-0 py-2">For Artists</p>
+                            <p class="font-500 mb-0">
+                                Get full control of your music catalog and profile.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 pt-5">
+                        <div class="text-center px-3">
+                            <img src="./images/camara-1.png" class="pb-0 pb-lg-4" />
+                            <p class="font-800 mb-0 py-2">For Publishers</p>
+                            <p class="font-500 mb-0">
+                                Distribute your music globally and get paid royalties.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--global audience-->
+
+    <section class="globle_audience">
+        <div class="container bg_global">
+            <div class="globle_audience_inner pb-2 pb-md-5">
+                <div class="row align-items-end">
+                    <div class="col-lg-5 col-md-5">
+                        <div class="ps-lg-5 ps-md-3">
+                            <h2 class="font-700 text-white">Reach your global audience</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
+                        <div>
+                            <p class="font-500 text-white text-justify">
+                                Music Engine is the world’s leading music provider. We work
+                                with clients like Instagram, Apple Music, Google, Shazam,
+                                Amazon Music, and many more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Why Us?-->
+
+    <section>
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center py-5">
+                <div class="col-lg-6 px-0 py-0 py-md-5">
+                    <div>
+                        <img src="./images/Character.png" class="w-100" />
+                    </div>
+                </div>
+                <div class="col-lg-6 px-0 pt-5 pb-0 pb-md-5">
+                    <div class="mx-3 mx-lg-auto why_us">
+                        <h2 class="font-700 mb-0 pb-5">Why Us?</h2>
+                        <div class="max_width-1">
+                            <p class="font-800 pb-2 mb-0">
+                                A world of music in your pocket.
+                            </p>
+                            <p class="font-500 mb-0">
+                                Find new loves and old favorites from over 56 million tracks.
+                            </p>
+                        </div>
+                        <div class="max_width-1 py-5">
+                            <p class="font-800 pb-2 mb-0">Craft your collection.</p>
+                            <p class="font-500 mb-0">
+                                Create playlists from millions of tracks and take them with
+                                you wherever you go.
+                            </p>
+                        </div>
+                        <div class="max_width-1">
+                            <p class="font-800 pb-2 mb-0">Made for you.</p>
+                            <p class="font-500 mb-0">
+                                Flow gets to know what you like and what you don't. Discover
+                                your personal soundtrack.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Join our community-->
+
+    <section class="bg_red">
+        <div class="container py-5">
+            <div class="Join_our_community d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2 class="font-700 text-white mb-0">Join our community</h2>
+                    <p class="font-500 text-white mb-0 py-4 max_width-2">
+                        Our community is made of millions of music fans worldwide building
+                        the best knowledge for music.
+                    </p>
+                    <button class="btn bg-white rounded-pill px-4" type="button ">
+                        <p class="txt_red mb-0">Start Premium Trial</p>
+                    </button>
+                </div>
+            </div>
+            <div class="pt-5">
+                <img src="./images/People.png" class="w-100" />
+            </div>
+        </div>
+    </section>
+
+    <!--Get verified now-->
+
+    <section class="bg_black body">
+        <div class="container pt-5 px-0">
+            <div class="d-flex justify-content-center align-items-center py-5 border-secondary border-bottom border-1">
+                <div class="text-center">
+                    <div>
+                        <h2 class="font-700 mb-0">
+                            Get verified now
+                            <img src="./images/./Vector-1.png" class="ps-2" />
+                        </h2>
+                    </div>
+                    <p class="font-500 mb-0 py-4 max_width-2">
+                        If you are an artist or part of their management team, we’ll help
+                        you getting the most out of your verified profile.
+                    </p>
+                    <button class="btn bg_red rounded-pill px-4" type="button ">
+                        <p class="mb-0 text-white">Get Verified</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Music Search-->
+
+    <section class="bg_black body">
+        <div class="container">
+            <div class="py-5">
+                <div class="row d-flex justify-content-center align-items-center pb-0 pb-lg-5">
+                    <div
+                        class="col-lg-2 col-sm-2 d-flex justify-content-center justify-content-md-between align-items-center">
+                        <a class="navbar-brand body py-0 d-flex justify-content-between align-items-center" href="#">
+                            <img src="./images/./Music-logo.png" />
+                            <span class="font_size-14 font-700 ps-2 mb-0">Music Cosign</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-12 px-0 d-none d-lg-block">
+                        <form class="d-flex justify-content-end align-items-center">
+                            <a href="#search" class="position-absolute pe-3">
+                                <img src="./images/search.png" />
+                            </a>
+                            <input class="form-control position-relative text-white py-2 ps-3 mb-0 search_box-1"
+                                id="search" type="search" placeholder="Search for songs, artists, genres"
+                                aria-label="Search" />
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="justify-content-end px-0 px-lg-4 py-3 py-lg-0">
+                            <ul
+                                class="d-flex justify-content-around justify-content-lg-between align-items-center mb-0 ps-0 ps-lg-0">
+                                <li>
+                                    <a class="font_size-14 font-400 body text-decoration-none" href="#">Create an
+                                        account</a>
+                                </li>
+                                <li>
+                                    <a class="font_size-14 font-400 body text-decoration-none" href="# ">Sign in</a>
+                                </li>
+                                <li>
+                                    <a class="font_size-14 font-400 body text-decoration-none" href="# ">Feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                        <!-- <div class="rounded-pill bg_search toggel_2 p-2">
+                            <a class="text-decoration-none " href="# ">
+                                <img src="./images/star-moon.png">
+                            </a>
+                            <a class="text-decoration-none px-2 " href="# ">
+                                <img src="./images/sun.png">
+                            </a>
+                        </div> -->
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox" />
+                                <div class="slider round">
+                                    <div class="toggel_sun_moon">
+                                        <img src="./images/sun.png" class="ps-2" />
+                                        <img src="./images/star-moon.png" />
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+
+    <footer class="bg_black">
+        <div class="bg_search">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center py-3">
+                    <div class="col-lg-3 col-12">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                            <div>
+                                <span class="font_size-14 font-400 txt_opacity">
+                                    Follow us on:
+                                </span>
+                            </div>
+                            <div class="ps-2">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="./images/facebook.png" />
+                                </a>
+                                <a href="#" class="text-decoration-none px-2">
+                                    <img src="./images/tweeter.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-2 py-lg-1">
+                        <div class="d-flex justify-content-center align-items-center text-center">
+                            <span class="font_size-14 font-400 txt_opacity">
+                                © 2022 Musiccosign Group. All Rights Reserved.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-block">
+                        <ul class="d-flex align-items-center justify-content-center justify-content-lg-end mb-0 px-0">
+                            <li>
+                                <a class="font_size-14 font-400 txt_opacity text-decoration-none" href="#">Cookie</a>
+                            </li>
+                            <li>
+                                <a class="font_size-14 font-400 txt_opacity text-decoration-none px-4"
+                                    href="# ">Privacy</a>
+                            </li>
+                            <li>
+                                <a class="font_size-14 font-400 txt_opacity text-decoration-none"
+                                    href="# ">Copyrights</a>
+                            </li>
+                            <li>
+                                <a class="font_size-14 font-400 txt_opacity text-decoration-none ps-4"
+                                    href="# ">Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--jquery-->
+    <script src="./js/jquery.min.js "></script>
+    <!--boostrap js-->
+    <script src="./js/bootstrap.bundle.min.js "></script>
+    <!--font aawsome js-->
+    <script src="https://kit.fontawesome.com/4fa83dc4e0.js " crossorigin="anonymous "></script>
+
+    <script>
+        // const checkbox = document.getElementById('checkbox');
+
+        // checkbox.addEventListener('change', () => {
+        //     document.body.classList.toggle('dark');
+        // })
+        const toggleSwitch = document.querySelector(
+            '.theme-switch input[type="checkbox"]'
+        );
+        const currentTheme = localStorage.getItem("theme");
+
+        if (currentTheme) {
+            document.documentElement.setAttribute("data-theme", currentTheme);
+
+            if (currentTheme === "dark") {
+                toggleSwitch.checked = true;
+            }
+        }
+
+        function switchTheme(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute("data-theme", "dark");
+                localStorage.setItem("theme", "dark");
+            } else {
+                document.documentElement.setAttribute("data-theme", "light");
+                localStorage.setItem("theme", "light");
+            }
+        }
+
+        toggleSwitch.addEventListener("change", switchTheme, false);
+    </script>
+</body>
+
+</html>

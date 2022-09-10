@@ -1,0 +1,332 @@
+@font-face {
+    font-family: Cabinet Grotesk;
+    src: url(CabinetGrotesk-Variable.ttf);
+}
+
+/*font weight*/
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.font-800 {
+    font-weight: 800;
+}
+
+/*background*/
+
+.bg_black {
+    background-color: #000000;
+}
+
+.bg_red {
+    background-color: #DA2F33;
+}
+
+.bg_search {
+    background: rgba(255, 255, 255, 0.12)
+}
+
+
+/*color*/
+
+.txt_red {
+    color: #DA2F33;
+}
+
+.txt_opacity {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    font-size: 72px;
+    font-family: Cabinet Grotesk;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Cabinet Grotesk;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.font_size-14 {
+    font-size: 14px;
+    font-family: manrope;
+}
+
+p {
+    font-family: manrope;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*menu bar*/
+
+.container {
+    max-width: 1180px;
+}
+.bg_drop{
+    background-color: rgba(255, 255, 255, 0.12);   
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.12);   
+}
+.search_box {
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 35px;
+    border-style: none;
+    color: #212529;
+    font-family: manrope;
+}
+.search_box:focus {
+    background-color: rgba(255, 255, 255, 0.12);
+    box-shadow: none
+}
+.search_box-1 {
+    background: #ccc;
+    border-radius: 35px;
+    border-style: none;
+    color: #4b4d4e;
+    font-family: manrope;
+}
+.search_box-1:focus {
+    background: #ccc;
+    box-shadow:none;
+}
+
+.search_box_icon {
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+.create_account {
+    width: 157px;
+}
+
+.you_bring_txt {
+    max-width: 702px;
+}
+
+/*-Bring The Passsion*/
+
+.passion_bg {
+    background: url(../images/background-1.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 700px;
+    position: relative;
+}
+
+.passion_bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.76) 62.5%, rgba(0, 0, 0, 0.44) 88.02%, rgba(0, 0, 0, 0.31) 93.23%, rgba(0, 0, 0, 0) 100%);
+}
+
+.max_width {
+    max-width: 702px;
+}
+
+/* .max_width-1 {
+    max-width: 265px;
+} */
+
+.max_width-2 {
+    max-width: 430px;
+}
+
+
+/*music world*/
+
+.music_txt_max_width {
+    max-width: 496px;
+}
+
+
+/*global audience*/
+
+.bg_global {
+    background: url(../images/background-2.png) no-repeat center;
+    background-size: cover;
+}
+
+.globle_audience_inner {
+    padding-top: 553px;
+}
+
+.bg_global h2,
+.bg_global p {
+    max-width: 375px;
+}
+
+/* why us */
+.why_us {
+    padding: 0px 135px;
+}
+
+.toggel_2 {
+    width: 90px;
+}
+
+/* footer */
+a:hover{
+    color: #DA2F33;
+}
+
+.toggel_sun_moon{
+    padding-top:3px;
+}
+
+/*slider switch css */
+
+[data-theme="dark"] {
+    --font-color: #fff;
+    --bg-color: #000;   
+}
+
+.body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background: rgba(85, 84, 84, 0.747)
+  }
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+/* container widh meadia wise */
+
+@media (min-width: 1700px) {}
+
+@media only screen and (min-width:1440px) and (max-width:1600px) {}
+
+@media only screen and (min-width:1360px) and (max-width:1439px) {}
+
+@media only screen and (min-width:1200px) and (max-width:1359px) {}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .why_us {
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    .passion_bg {
+        background: url(../images/background-1.png) no-repeat center;
+        background-size: cover;
+        padding-bottom: 350px;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 36px;
+        font-family: Cabinet Grotesk;
+    }
+
+    .max_width-1 {
+        max-width: unset;
+    }
+
+    .globle_audience_inner {
+        padding-top: 350px;
+    }
+
+    .why_us {
+        padding: 25px;
+    }
+}
+
+@media (max-width:575px) {}
+
+@media (max-width:481px) {
+    .why_us {
+        padding: 5px;
+    }
+}
+
+
+
